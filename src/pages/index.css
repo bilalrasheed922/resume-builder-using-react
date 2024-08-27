@@ -1,0 +1,80 @@
+/* Add this CSS to your stylesheets */
+
+.your-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .text-and-image-container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .text-container {
+    flex: 1;
+   padding-right: 20px;
+    font-size: xx-large;
+    font-family: cursive;
+  
+  }
+  
+  .text-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: xxx-large;
+    font-family: cursive;
+    
+  }
+  .text-container p{
+    font-family: cursive;
+  }
+
+  .image-container{
+    width: 600px;
+
+  }
+  
+  .image-container img {
+    width: 100%;
+    height:100%;
+  }
+  
+  .carousel-container {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border-radius: 15px 50px 30px;
+  padding: 20px;
+  }
+  
+  .images-and-cards-container {
+    margin-top: 100px;
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+  }
+  
+  .images-and-cards-container .image {
+    margin-right: 10px;
+  }
+  .Carousel-image{
+    width:100%;
+    height: 50%;
+  }
+  
+  .images-and-cards-container .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners to images */
+  }
+  .Cards{
+   
+  margin-right: 50px;
+  }
+  
+  /* Additional styling can be added based on your design preferences */
+  
